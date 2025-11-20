@@ -5,9 +5,9 @@ services:
     build: ./backend
     container_name: backend
     working_dir: /app
-    command: python project_pys/manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./backend:/app
+      - ./backend/project_pys:/app
     ports:
       - "8000:8000"
 
