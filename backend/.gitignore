@@ -1,0 +1,95 @@
+# ---> Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pyo
+*.pyc
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+pys_django/          # entorno virtual personalizado
+.vscode/
+.idea/
+
+# Archivos de configuración privadas
+*.env
+.env.*
+*.ini
+*.cfg
+
+# ---> Django
+# Archivos generados por migraciones
+*/migrations/*
+!*/migrations/__init__.py
+
+# Archivos estáticos recolectados
+/staticfiles/
+/static/
+
+# Archivos de medios
+/media/
+
+# Archivos de Django Logs
+*.log
+
+# Configuración local
+local_settings.py
+
+# Secret Key si la tienes en archivo
+secret_key.txt
+
+# Archivos de base de datos (SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+# ---> Compilados y cachés
+*.mo
+*.pot
+*.swp
+
+# ---> Distribución / empaquetado
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---> Dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---> Herramientas
+coverage.xml
+.coverage
+htmlcov/
+
+# Django Debug Toolbar
+djdt/
+
+# Pytest / tests
+.pytest_cache/
+.cache/
+junit.xml
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Docker
+docker-compose.override.yml
+*.pid
