@@ -81,6 +81,12 @@ docker-compose exec backend python manage.py createsuperuser
 docker-compose exec backend bash
 ```
 
+### Crear registros en la tabla de ciudades
+Ingresa con el superusuario creado e inserta las ciudades que desee.
+```bash
+http://localhost:8000/admin/
+```
+
 ---
 
 ##  Ejecutar el proyecto sin Docker (opcional)
