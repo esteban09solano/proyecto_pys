@@ -1,23 +1,23 @@
-# 🚀 Proyecto Fullstack: Django + React + Docker
+#  Proyecto Fullstack: Django + React + Docker
 
 Este proyecto consiste en un **backend desarrollado con Django/Django REST Framework** y un **frontend desarrollado con React + Vite**.  
 Todo el entorno está preparado para ejecutarse de forma **reproducible y aislada mediante Docker y Docker Compose**, evitando problemas de dependencias o configuraciones locales.
 
 ---
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 project/
 │── backend/
 │   ├── Dockerfile
 │   ├── requirements.txt
-│   └── ... (código Django)
+│   └── project_pys/
 │
-│── frontend/
+│── frontend/react_pys
 │   ├── Dockerfile
 │   ├── package.json
-│   └── ... (código React)
+│   └── src/
 │
 │── docker-compose.yml
 │── README.md
@@ -25,7 +25,7 @@ project/
 
 ---
 
-## 🔧 Requisitos previos
+##  Requisitos previos
 
 - **Docker**  
 - **Docker Compose**  
@@ -33,7 +33,7 @@ project/
 
 ---
 
-## ▶️ Ejecutar el proyecto con Docker
+##  Ejecutar el proyecto con Docker
 
 ### 1. Construir y levantar los servicios
 
@@ -50,7 +50,7 @@ Esto hará:
 
 ---
 
-## 🌐 URLs importantes
+##  URLs importantes
 
 | Servicio | URL |
 |---------|-----|
@@ -59,7 +59,7 @@ Esto hará:
 
 ---
 
-## 🛠 Comandos útiles (docker)
+##  Comandos útiles (docker)
 
 ### Ver logs
 ```bash
@@ -83,7 +83,7 @@ docker-compose exec backend bash
 
 ---
 
-## 🧪 Ejecutar el proyecto sin Docker (opcional)
+##  Ejecutar el proyecto sin Docker (opcional)
 
 ### Backend (Django)
 
@@ -106,7 +106,7 @@ npm run dev
 
 ---
 
-## 🧱 Ejemplo Docker Compose
+##  Ejemplo Docker Compose
 
 ```yaml
 version: '3.9'
@@ -135,7 +135,7 @@ services:
 
 ---
 
-## 🧹 Limpieza
+##  Limpieza
 
 Parar todos los servicios:
 
@@ -151,7 +151,7 @@ docker-compose down --volumes --rmi all
 
 ---
 
-## ✅ Contribuir
+##  Contribuir
 
 1. Crear branch  
 2. Commit + push  
@@ -159,6 +159,6 @@ docker-compose down --volumes --rmi all
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto puede usarse y modificarse libremente.
